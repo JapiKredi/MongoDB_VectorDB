@@ -5,7 +5,6 @@ dnspython
 pandas
 numpy
 ensure
-pytest
 
 # dev requirements
 pytest==7.1.3

@@ -12,8 +12,8 @@ AUTHOR_USER_NAME = "sunnysavita10"
 AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
 
 setup(
-    name=PKG_NAME,
-    version=__version__,
+    name= "MongoDB_VectorDB",
+    version="0.0.4",
     author="Jasper Bongers",
     author_email="jasper.bongers@yahoo.com",
     description="A python package for connecting with database.",
