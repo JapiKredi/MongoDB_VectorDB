@@ -6,16 +6,16 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.4"
-REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+REPO_NAME = "MongoDB_VectorDB"
+PKG_NAME= "mongodb_connect"
+AUTHOR_USER_NAME = "JapiKredi"
+AUTHOR_EMAIL = "jasper.bongers@yahoo.com"
 
 setup(
-    name= "MongoDB_VectorDB",
-    version="0.0.4",
-    author="Jasper Bongers",
-    author_email="jasper.bongers@yahoo.com",
+    name=PKG_NAME,
+    version=__version__,
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
     description="A python package for connecting with database.",
     long_description=long_description,
     long_description_content="text/markdown",
